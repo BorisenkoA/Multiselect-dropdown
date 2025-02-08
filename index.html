@@ -9,45 +9,26 @@
   <body>
     <div class="dropdown-container">
       <div class="dropdown-select">
-        <div class="checked-area">Dropdown-select</div>
+        <div class="checked-area">Select</div>
         <img class="image" src="/arrowDown.png" alt="arrowDown" />
       </div>
-      <div class="dropdown-content hidden">
-        <label class="checkbox-label checked-label">
+      <ul class="dropdown-content hidden">
+        <li class="checkbox-label checked-label">
           <img src="/magnifying-glass-solid.svg" alt="searchIcon" />
-          <input type="text" name="search" placeholder="Search..." />
-        </label>
-        <label class="checkbox-label">
-          <input type="checkbox" name="subscribe" />
-          Red
-          <img class="close-btn" src="/close-btn.svg" alt="close-btn">
-        </label>
-        <label class="checkbox-label">
-          <input type="checkbox" name="subscribe" />
-          Green
-          <img class="close-btn" src="/close-btn.svg" alt="close-btn">
-        </label>
-        <label class="checkbox-label">
-          <input type="checkbox" name="subscribe" />
-          Blue
-          <img class="close-btn" src="/close-btn.svg" alt="close-btn">
-        </label>
-        <label class="checkbox-label">
-          <input type="checkbox" name="subscribe" />
-          Yellow
-          <img class="close-btn" src="/close-btn.svg" alt="close-btn">
-        </label>
-        <label class="checkbox-label">
-          <input type="checkbox" name="subscribe" />
-          Pink
-          <img class="close-btn" src="/close-btn.svg" alt="close-btn">
-        </label>
-        <label class="checkbox-label">
-          <input type="checkbox" name="subscribe" />
-          Orange
-          <img class="close-btn" src="/close-btn.svg" alt="close-btn">
-        </label>
-      </div>
+          <input
+            class="search-label"
+            type="text"
+            name="search"
+            placeholder="Search..."
+          />
+        </li>
+        <li class="checkbox-label">Red</li>
+        <li class="checkbox-label">Green</li>
+        <li class="checkbox-label">Blue</li>
+        <li class="checkbox-label">Yellow</li>
+        <li class="checkbox-label">Pink</li>
+        <li class="checkbox-label">Orange</li>
+      </ul>
     </div>
 
     <script src="/script.js"></script>
